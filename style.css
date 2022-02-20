@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#contents{
+    width: 100%;
+    height:fit-content;
+    display:inline-block;
+}
+
+#cats p{
+    font-size: 10px;
+}
+
+a#storeNames {
+    margin-left: 15px;
+    height: fit-content;
+    display: block;
+    font-size: 15px;
+    margin-top: 2px;
+}
+
+li{
+    display: inline-block;
+    height:2em;
+    margin-top:auto;
+    margin-bottom:auto;
+    padding-left:10px;
+}
+
+
+/*map*/
+
+
+#map {
+position: relative;
+top: 0;
+right: 0;
+bottom: 0;
+width: 500px;
+height:auto;
+width: 800px;
+height: 400px;
+}
+
+.marker {
+display: block;
+border: none;
+box-sizing:90%;
+cursor: pointer;
+padding: 0;
+}
+
+.mapboxgl-popup {
+max-width: 200px;
+}
+
+.mapboxgl-popup-content {
+text-align: center;
+font-family: 'Open Sans', sans-serif;
+}
+
+
+h2{
+    font-size:15px;
+}
+  
+button.accordion {
+      width: 100%;
+      display: block;
+      background-color: rgb(255, 255, 255);
+      text-align: left;
+      border: none;
+      outline: none;
+      transition: 0.4s;
+      cursor: pointer;
+      padding: 18px;
+      height:2em;
+      font-size: 15px;
+      margin-top:auto;
+  
+}
+  
+button.accordian:hover{
+    background-color:#ccc;
+}
+
+
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+  
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+  
+@media (min-width:768px){
+
+
+    li#cats {
+        width: 30%;
+        height: auto;
+    }
+
+
+    li#map{
+        width: 60%;
+    }
+    #contents {
+        width: 100%;
+        display: inline-flex;
+    }
+
+}
+@media (max-width:768px) {
+    #contents {
+        width: 100%;
+        display: inline-block;
+    }
+
+    li#cats {
+        width: 100%;
+        height: auto;
+    }
+
+
+    li#map{
+        width: 90%;
+        display: inline-flex;
+        margin:20px;
+        
+    }
+
+    
+}
+
