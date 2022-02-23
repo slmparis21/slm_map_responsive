@@ -166,7 +166,7 @@ button.accordian:hover{
 <script>
 	
 mapboxgl.accessToken = 'pk.eyJ1IjoienNvbmcwMDAiLCJhIjoiY2tuOGZpam1hMHhqeDJ1cW5ybnk2YWY5aSJ9.Qvp2VueePF0Ss_IPcmtdNA';
-const geojson ={
+const geojson={
   "type": "FeatureCollection",
   "features": [
     {
@@ -175,6 +175,7 @@ const geojson ={
         "name": "Aromateka",
         "address": "Znamenka Ulitsa, 7/3, Пушкино, Moskovskaya oblast, Russia, 119019",
         "country":"Russia",
+        "city":"Moscow",
         "code":7
       },
       "geometry": {
@@ -191,6 +192,7 @@ const geojson ={
         "name": "Parfümerie Aurel",
         "address": "Breite Str. 75, Stendal",
         "country":"Germany",
+        "city":"Stendal",
         "code":49
       },
       "geometry": {
@@ -207,6 +209,7 @@ const geojson ={
         "name": "Aus Liebe Zum Duft",
         "address": "Zeiloch 9, Bruchsal",
         "country":"Germany",
+        "city":"Bruchsal",
         "code":49
       },
       "geometry": {
@@ -223,6 +226,7 @@ const geojson ={
         "name": "Balduin",
         "address": "Adlerstraße 15 86899 Landsberg am Lech, Germany",
         "country":"Germany",
+        "city":"Landsberg",
         "code":49
       },
       "geometry": {
@@ -239,6 +243,7 @@ const geojson ={
         "name": "Basic Crème de la Crème",
         "address": "21 Rue des Élus, 51100 Reims -",
         "country":"France",
+        "city":"Reims",
         "code":33
       },
       "geometry": {
@@ -255,6 +260,7 @@ const geojson ={
         "name": "Bercalina",
         "address": "2 rue Neuve Saint Roch, Bastia",
         "country":"France",
+        "city":"Bastia",
         "code":33
       },
       "geometry": {
@@ -271,6 +277,7 @@ const geojson ={
         "name": "Cour des Hommes",
         "address": "11 Rue des Clercs, 57000 Metz, France",
         "country":"France",
+        "city":"Metz",
         "code":33
       
       },
@@ -288,6 +295,7 @@ const geojson ={
         "name": "Eiffel",
         "address": "Ulitsa Kuybysheva, 26, Vladikavkaz, Северная Осетия-Алания республика",
         "country":"Russia",
+        "city":"Vladikavkaz",
         "code":7
       },
       "geometry": {
@@ -304,6 +312,7 @@ const geojson ={
         "name": "Fablab",
         "address": "Bondegatan 7, Stockholm",
         "country":"Sweden",
+        "city":" Stockholm",
         "code":46
       },
       "geometry": {
@@ -320,6 +329,7 @@ const geojson ={
         "name": "Giorgio",
         "address": "18-1 A Uchitel skaya st.,St. Petersburg",
         "country":"Russia",
+        "city":"St.Petersburg",
         "code":7
       },
       "geometry": {
@@ -336,6 +346,7 @@ const geojson ={
         "name": "Harvey Nichols",
         "address": "109-125 Knightsbridge, Belgravia, London SW1X 7RJ, UK",
         "country":"United Kingdom",
+        "city":"London",
         "code":44
       },
       "geometry": {
@@ -352,6 +363,7 @@ const geojson ={
         "name": "Hyrv Concept Store",
         "address": "Rotermanni 7, Tallinn",
         "country":"Estonia",
+        "city":"Tallinn",
         "code":372
       },
       "geometry": {
@@ -368,6 +380,7 @@ const geojson ={
         "name": "Identité Parfumerie",
         "address": "3 rue des Bons Enfants, Muhlouse",
         "country":"France",
+        "city":"Muhlouse",
         "code":33
       },
       "geometry": {
@@ -384,6 +397,7 @@ const geojson ={
         "name": "Impressium",
         "address": "Mysia 3 00-496 Varsovie",
         "country":"Poland",
+        "city":"Varsovie",
         "code":48
       },
       "geometry": {
@@ -400,6 +414,7 @@ const geojson ={
         "name": "Impressium",
         "address": "Piotrkowska 243 90-456 Łódź",
         "country":"Poland",
+        "city":"Łódź",
         "code":48
       },
       "geometry": {
@@ -416,6 +431,7 @@ const geojson ={
         "name": "Indigo Perfumery",
         "address": "12011 Detroit Ave, Lakewood, OH 44107",
         "country":"United States",
+        "city":"Lakewood",
         "code":1
       },
       "geometry": {
@@ -432,6 +448,7 @@ const geojson ={
         "name": "Kurfürsten Parfümerie",
         "address": "P7 24, Mannheim",
         "country":"Germany",
+        "city":"Mannheim",
         "code":49
       },
       "geometry": {
@@ -448,6 +465,7 @@ const geojson ={
         "name": "La Majestueuse",
         "address": "73 rue des Remparts, Bordeaux",
         "country":"France",
+        "city":"Bordeaux",
         "code":33
       },
       "geometry": {
@@ -464,6 +482,7 @@ const geojson ={
         "name": "Le Paravent",
         "address": "35 rue Auguste Comte, Lyon",
         "country":"France",
+        "city":"Lyon",
         "code":33
       },
       "geometry": {
@@ -480,6 +499,7 @@ const geojson ={
         "name": "Le Secret du Marais",
         "address": "Calle Hortaleza, 75 28004 Madrid",
         "country":"Spain",
+        "city":"Madrid",
         "code":34
       },
       "geometry": {
@@ -512,6 +532,7 @@ const geojson ={
         "name": "Omar",
         "address": "Muscat Oman",
         "country":"Middle East",
+        "city":"Oman",
         "code":968
       },
       "geometry": {
@@ -528,6 +549,7 @@ const geojson ={
         "name": "Parfumerie Brückner",
         "address": "Kaufingerstraße 28",
         "country":"Germany",
+        "city":"Munich",
         "code":49
       },
       "geometry": {
@@ -544,6 +566,8 @@ const geojson ={
         "name": "Parfumerie Christophe",
         "address": "Groenlaan 9, Herzele\n",
         "country":"Belgium",
+        "city":"Herzele",
+        "link":"https://www.parfumerie-christophe.be/",
         "code":32
       },
       "geometry": {
@@ -560,6 +584,7 @@ const geojson ={
         "name": "Parfums Uniques",
         "address": "Klenzestrasse 22 (at Gärtnerplatz) , 80469 Munich",
         "country":"Germany",
+        "city":"Munich",
         "code":32
       },
       "geometry": {
@@ -576,6 +601,7 @@ const geojson ={
         "name": "Rosamundi",
         "address": "Agora Floreasca building, etaj 1 Calea Floreasca 111–113, Bucharest",
         "country":"Romania",
+        "city":"Bucharest",
         "code":40
       },
       "geometry": {
@@ -592,6 +618,7 @@ const geojson ={
         "name": "Sens Unique",
         "address": "13 Rue du Roi de Sicile, 75004 Paris -",
         "country":"France",
+        "city":"Paris",
         "code":33
       },
       "geometry": {
@@ -607,7 +634,8 @@ const geojson ={
       "properties": {
         "name": "Smell Stories",
         "address": "Verversstraat 15, Quartier Saint-Jacques, Bruxelles",
-        "country":"France",
+        "country":"Belgium",
+        "city":"Brussels",
         "code":33
       },
       "geometry": {
@@ -624,6 +652,7 @@ const geojson ={
         "name": "Space240",
         "address": "240 East 29th st, New York",
         "country":"United States",
+        "city":"New York",
         "code":1
       },
       "geometry": {
@@ -640,6 +669,7 @@ const geojson ={
         "name": "Spitzenhaus",
         "address": "Börsenstrasse 14, 8001 Zürich",
         "country":"Switerland",
+        "city":"Zurich",
         "code":41
       },
       "geometry": {
@@ -656,6 +686,7 @@ const geojson ={
         "name": "Swan Parfümerie",
         "address": "Stadtpl. 29, 84307 Eggenfelden, Allemagne",
         "country":"Germany",
+        "city":"Eggenfelden",
         "code":49
       },
       "geometry": {
@@ -672,6 +703,7 @@ const geojson ={
         "name": "Zgo",
         "address": "600 Castro street, San Francisco",
         "country":"United States",
+        "city":"San Francisco",
         "code":1
       },
       "geometry": {
@@ -687,6 +719,7 @@ const geojson ={
       "properties": {
         "name": "La Maison de la Parfumeria",
         "address": "TC Plaza, Karla Marksa 76a, Khabarovsk",
+        "city":"Khabarovsk",
         "country":"Russia",
         "code":7
       },
@@ -704,6 +737,7 @@ const geojson ={
         "name": "Renee Parfums",
         "address": "BASKOV LANE, 5, Saint Petersburg",
         "country":"Russia",
+        "city":"St.Petersburg",
         "code":7
       },
       "geometry": {
@@ -720,6 +754,7 @@ const geojson ={
         "name": "Imagine",
         "address": "Prospekt Lenina 25, mall Europa, Yekaterinburg 620014",
         "country":"Russia",
+        "city":"Yekaterinburg",
         "code":7
       },
       "geometry": {
@@ -736,6 +771,7 @@ const geojson ={
         "name": "Place Shop",
         "address": "PERM, SOVETSKAYA ST 28A",
         "country":"Russia",
+        "city":"Perm",
         "code":7
       },
       "geometry": {
@@ -818,7 +854,10 @@ for(let i =0;i<stores.length;i++){
     switch(obj.properties.country){
         
         case caseVal:
-        stores[i].name.push(obj.properties.name);
+        let cityVal=obj.properties.city;
+        stores[i].name.push(obj.properties.name+', '+cityVal);
+        // console.log(cityVal);
+        // stores[i].name.city.push(cityVal);
         break;
     }
   }
