@@ -28,7 +28,8 @@ const geojson={
         "lon": "11.86260375",
         "address": "Breite Str. 75, Stendal",
         "country": "Germany",
-        "code": "49"
+        "code": "49",
+        "link": ""
       },
       "geometry": {
         "type": "Point",
@@ -46,7 +47,8 @@ const geojson={
         "lon": "8.586216371",
         "address": "Zeiloch 9, Bruchsal",
         "country": "Germany",
-        "code": "49"
+        "code": "49",
+        "link": ""
       },
       "geometry": {
         "type": "Point",
@@ -64,7 +66,8 @@ const geojson={
         "lon": "10.89396432",
         "address": "Adlerstraße 15 86899 Landsberg am Lech, Germany",
         "country": "Germany",
-        "code": "49"
+        "code": "49",
+        "link": "" 
       },
       "geometry": {
         "type": "Point",
@@ -82,7 +85,8 @@ const geojson={
         "lon": "4.0314917",
         "address": "21 Rue des Élus, 51100 Reims -",
         "country": "France",
-        "code": "33"
+        "code": "33",
+        "link": ""
       },
       "geometry": {
         "type": "Point",
@@ -100,7 +104,8 @@ const geojson={
         "lon": "9.450425213",
         "address": "2 rue Neuve Saint Roch, Bastia",
         "country": "France",
-        "code": "33"
+        "code": "33",
+        "link": ""
       },
       "geometry": {
         "type": "Point",
@@ -118,7 +123,8 @@ const geojson={
         "lon": "6.174013",
         "address": "11 Rue des Clercs, 57000 Metz, France",
         "country": "France",
-        "code": "33"
+        "code": "33",
+        "link": ""
       },
       "geometry": {
         "type": "Point",
@@ -136,7 +142,8 @@ const geojson={
         "lon": "37.607453",
         "address": "Ulitsa Kuybysheva, 26, Vladikavkaz, Северная Осетия-Алания республика",
         "country": "Russia",
-        "code": "7"
+        "code": "7",
+        "link": ""
       },
       "geometry": {
         "type": "Point",
@@ -305,7 +312,8 @@ const geojson={
         "lon": "8.473097957",
         "address": "P7 24, Mannheim",
         "country": "Germany",
-        "code": "49"
+        "code": "49",
+        "link": ""
       },
       "geometry": {
         "type": "Point",
@@ -380,7 +388,8 @@ const geojson={
         "lon": "82.925049",
         "address": "Serebrennikovskaya Ulitsa, 31, Novosibirsk",
         "country": "Russia",
-        "code": "7"
+        "code": "7",
+        "link": ""
       },
       "geometry": {
         "type": "Point",
@@ -398,7 +407,8 @@ const geojson={
         "lon": "58.564049",
         "address": "Muscat Oman",
         "country": "Oman",
-        "code": "968"
+        "code": "968",
+        "link": ""
       },
       "geometry": {
         "type": "Point",
@@ -454,7 +464,8 @@ const geojson={
         "lon": "11.576714",
         "address": "Klenzestrasse 22 (at Gärtnerplatz) , 80469 Munich",
         "country": "Germany",
-        "code": "49"
+        "code": "49",
+        "link": ""
       },
       "geometry": {
         "type": "Point",
@@ -529,7 +540,8 @@ const geojson={
         "lon": "8.540685",
         "address": "Börsenstrasse 14, 8001 Zürich",
         "country": "Switzerland",
-        "code": "41"
+        "code": "41",
+        "link": ""
       },
       "geometry": {
         "type": "Point",
@@ -547,7 +559,8 @@ const geojson={
         "lon": "12.76271351",
         "address": "Stadtpl. 29, 84307 Eggenfelden, Allemagne",
         "country": "Germany",
-        "code": "49"
+        "code": "49",
+        "link": ""
       },
       "geometry": {
         "type": "Point",
@@ -584,7 +597,8 @@ const geojson={
         "lon": "135.0839907",
         "address": "TC Plaza, Karla Marksa 76a, Khabarovsk",
         "country": "Russia",
-        "code": "7"
+        "code": "7",
+        "link": ""
       },
       "geometry": {
         "type": "Point",
@@ -640,7 +654,8 @@ const geojson={
         "lon": "56.23727981",
         "address": "PERM, SOVETSKAYA ST 28A",
         "country": "Russia",
-        "code": "7"
+        "code": "7",
+        "link": ""
       },
       "geometry": {
         "type": "Point",
@@ -658,7 +673,8 @@ const geojson={
         "lon": "34.791119633444300",
         "address": "TEL AVIV, Arieh Akiva St 1",
         "country": "Israel",
-        "code": "972"
+        "code": "972",
+        "link": ""
       },
       "geometry": {
         "type": "Point",
