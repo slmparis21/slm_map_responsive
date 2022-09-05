@@ -1,20 +1,22 @@
-let geoJson={
+const geojson={
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "properties": {
         "name": "Aromateka",
+        "lat": "55.74200165",
+        "lon": "37.60327234",
         "address": "Znamenka Ulitsa, 7/3, Пушкино, Moskovskaya oblast, Russia, 119019",
-        "country":"Russia",
-        "city":"Moscow",
-        "code":7
+        "country": "Russia",
+        "code": "7",
+        "link": "https://aroma-teka.ru/"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          37.60327234,
-          55.74200165
+          37.603272,
+          55.742002
         ]
       }
     },
@@ -22,16 +24,17 @@ let geoJson={
       "type": "Feature",
       "properties": {
         "name": "Parfümerie Aurel",
+        "lat": "52.60486322",
+        "lon": "11.86260375",
         "address": "Breite Str. 75, Stendal",
-        "country":"Germany",
-        "city":"Stendal",
-        "code":49
+        "country": "Germany",
+        "code": "49"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          11.86260375,
-          52.60486322
+          11.862604,
+          52.604863
         ]
       }
     },
@@ -39,16 +42,17 @@ let geoJson={
       "type": "Feature",
       "properties": {
         "name": "Aus Liebe Zum Duft",
+        "lat": "49.1381556",
+        "lon": "8.586216371",
         "address": "Zeiloch 9, Bruchsal",
-        "country":"Germany",
-        "city":"Bruchsal",
-        "code":49
+        "country": "Germany",
+        "code": "49"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.586216371,
-          49.1381556
+          8.586216,
+          49.138156
         ]
       }
     },
@@ -56,16 +60,17 @@ let geoJson={
       "type": "Feature",
       "properties": {
         "name": "Balduin",
+        "lat": "48.05103123",
+        "lon": "10.89396432",
         "address": "Adlerstraße 15 86899 Landsberg am Lech, Germany",
-        "country":"Germany",
-        "city":"Landsberg",
-        "code":49
+        "country": "Germany",
+        "code": "49"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.89396432,
-          48.05103123
+          10.893964,
+          48.051031
         ]
       }
     },
@@ -73,16 +78,17 @@ let geoJson={
       "type": "Feature",
       "properties": {
         "name": "Basic Crème de la Crème",
+        "lat": "49.2555133",
+        "lon": "4.0314917",
         "address": "21 Rue des Élus, 51100 Reims -",
-        "country":"France",
-        "city":"Reims",
-        "code":33
+        "country": "France",
+        "code": "33"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.0314917,
-          49.2555133
+          4.031492,
+          49.255513
         ]
       }
     },
@@ -90,16 +96,17 @@ let geoJson={
       "type": "Feature",
       "properties": {
         "name": "Bercalina",
+        "lat": "42.69829107",
+        "lon": "9.450425213",
         "address": "2 rue Neuve Saint Roch, Bastia",
-        "country":"France",
-        "city":"Bastia",
-        "code":33
+        "country": "France",
+        "code": "33"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.450425213,
-          42.69829107
+          9.450425,
+          42.698291
         ]
       }
     },
@@ -107,11 +114,11 @@ let geoJson={
       "type": "Feature",
       "properties": {
         "name": "Cour des Hommes",
+        "lat": "49.117584",
+        "lon": "6.174013",
         "address": "11 Rue des Clercs, 57000 Metz, France",
-        "country":"France",
-        "city":"Metz",
-        "code":33
-      
+        "country": "France",
+        "code": "33"
       },
       "geometry": {
         "type": "Point",
@@ -125,10 +132,11 @@ let geoJson={
       "type": "Feature",
       "properties": {
         "name": "Eiffel",
+        "lat": "55.749283",
+        "lon": "37.607453",
         "address": "Ulitsa Kuybysheva, 26, Vladikavkaz, Северная Осетия-Алания республика",
-        "country":"Russia",
-        "city":"Vladikavkaz",
-        "code":7
+        "country": "Russia",
+        "code": "7"
       },
       "geometry": {
         "type": "Point",
@@ -142,16 +150,18 @@ let geoJson={
       "type": "Feature",
       "properties": {
         "name": "Fablab",
+        "lat": "59.31296891",
+        "lon": "18.0778694",
         "address": "Bondegatan 7, Stockholm",
-        "country":"Sweden",
-        "city":" Stockholm",
-        "code":46
+        "country": "Sweden",
+        "code": "46",
+        "link": "https://fab-lab.nu/collections/sous-le-manteau/"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.0778694,
-          59.31296891
+          18.077869,
+          59.312969
         ]
       }
     },
@@ -159,10 +169,11 @@ let geoJson={
       "type": "Feature",
       "properties": {
         "name": "Giorgio",
+        "lat": "59.93428",
+        "lon": "30.335099",
         "address": "18-1 A Uchitel skaya st.,St. Petersburg",
-        "country":"Russia",
-        "city":"St.Petersburg",
-        "code":7
+        "country": "Russia",
+        "code": "7"
       },
       "geometry": {
         "type": "Point",
@@ -176,10 +187,12 @@ let geoJson={
       "type": "Feature",
       "properties": {
         "name": "Harvey Nichols",
+        "lat": "51.501584",
+        "lon": "-0.159805",
         "address": "109-125 Knightsbridge, Belgravia, London SW1X 7RJ, UK",
-        "country":"United Kingdom",
-        "city":"London",
-        "code":44
+        "country": "UK",
+        "code": "44",
+        "link": "https://www.harveynichols.com/search/sous%20le%20manteau/"
       },
       "geometry": {
         "type": "Point",
@@ -193,16 +206,18 @@ let geoJson={
       "type": "Feature",
       "properties": {
         "name": "Hyrv Concept Store",
+        "lat": "59.43973086",
+        "lon": "24.75655431",
         "address": "Rotermanni 7, Tallinn",
-        "country":"Estonia",
-        "city":"Tallinn",
-        "code":372
+        "country": "Estonia",
+        "code": "372",
+        "link": "https://www.hyrv.co/perfumes/"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.75655431,
-          59.43973086
+          24.756554,
+          59.439731
         ]
       }
     },
@@ -210,16 +225,18 @@ let geoJson={
       "type": "Feature",
       "properties": {
         "name": "Identité Parfumerie",
+        "lat": "47.74769212",
+        "lon": "7.337457078",
         "address": "3 rue des Bons Enfants, Muhlouse",
-        "country":"France",
-        "city":"Muhlouse",
-        "code":33
+        "country": "France",
+        "code": "33",
+        "link": "https://www.identite-parfumerie.fr/sous-le-manteau/"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          7.337457078,
-          47.74769212
+          7.337457,
+          47.747692
         ]
       }
     },
@@ -227,16 +244,18 @@ let geoJson={
       "type": "Feature",
       "properties": {
         "name": "Impressium",
+        "lat": "52.23046019",
+        "lon": "21.02084547",
         "address": "Mysia 3 00-496 Varsovie",
-        "country":"Poland",
-        "city":"Varsovie",
-        "code":48
+        "country": "Poland",
+        "code": "48",
+        "link": "https://impressium.pl/37_sous-le-manteau"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.02084547,
-          52.23046019
+          21.020845,
+          52.23046
         ]
       }
     },
@@ -244,16 +263,18 @@ let geoJson={
       "type": "Feature",
       "properties": {
         "name": "Impressium",
+        "lat": "51.75158547",
+        "lon": "19.46009643",
         "address": "Piotrkowska 243 90-456 Łódź",
-        "country":"Poland",
-        "city":"Łódź",
-        "code":48
+        "country": "Poland",
+        "code": "48",
+        "link": "https://impressium.pl/37_sous-le-manteau"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          19.46009643,
-          51.75158547
+          19.460096,
+          51.751585
         ]
       }
     },
@@ -261,16 +282,18 @@ let geoJson={
       "type": "Feature",
       "properties": {
         "name": "Indigo Perfumery",
+        "lat": "41.48386589",
+        "lon": "-81.771735",
         "address": "12011 Detroit Ave, Lakewood, OH 44107",
-        "country":"United States",
-        "city":"Lakewood",
-        "code":1
+        "country": "United States",
+        "code": "1",
+        "link": "https://indigoperfumery.com/collections/sous-le-manteau/"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           -81.771735,
-          41.48386589
+          41.483866
         ]
       }
     },
@@ -278,16 +301,17 @@ let geoJson={
       "type": "Feature",
       "properties": {
         "name": "Kurfürsten Parfümerie",
+        "lat": "49.48622848",
+        "lon": "8.473097957",
         "address": "P7 24, Mannheim",
-        "country":"Germany",
-        "city":"Mannheim",
-        "code":49
+        "country": "Germany",
+        "code": "49"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.473097957,
-          49.48622848
+          8.473098,
+          49.486228
         ]
       }
     },
@@ -295,16 +319,18 @@ let geoJson={
       "type": "Feature",
       "properties": {
         "name": "La Majestueuse",
+        "lat": "44.83876245",
+        "lon": "-0.5791792597",
         "address": "73 rue des Remparts, Bordeaux",
-        "country":"France",
-        "city":"Bordeaux",
-        "code":33
+        "country": "France",
+        "code": "33",
+        "link": "https://lamajestueuse.fr/parfums-rares/parfums-sous-le-manteau/"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.5791792597,
-          44.83876245
+          -0.579179,
+          44.838762
         ]
       }
     },
@@ -312,16 +338,18 @@ let geoJson={
       "type": "Feature",
       "properties": {
         "name": "Le Paravent",
+        "lat": "45.75326573",
+        "lon": "4.83094887",
         "address": "35 rue Auguste Comte, Lyon",
-        "country":"France",
-        "city":"Lyon",
-        "code":33
+        "country": "France",
+        "code": "33",
+        "link": "https://le-paravent.fr/parfum-de-niche/sous-le-manteau--115/"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.83094887,
-          45.75326573
+          4.830949,
+          45.753266
         ]
       }
     },
@@ -329,10 +357,12 @@ let geoJson={
       "type": "Feature",
       "properties": {
         "name": "Le Secret du Marais",
+        "lat": "40.425267",
+        "lon": "-3.69778",
         "address": "Calle Hortaleza, 75 28004 Madrid",
-        "country":"Spain",
-        "city":"Madrid",
-        "code":34
+        "country": "Spain",
+        "code": "34",
+        "link": "https://www.lesecretdumarais.com/es/590-sous-le-manteau"
       },
       "geometry": {
         "type": "Point",
@@ -346,9 +376,11 @@ let geoJson={
       "type": "Feature",
       "properties": {
         "name": "Lukse",
+        "lat": "55.026864",
+        "lon": "82.925049",
         "address": "Serebrennikovskaya Ulitsa, 31, Novosibirsk",
-        "country":"Russia",
-        "code":7
+        "country": "Russia",
+        "code": "7"
       },
       "geometry": {
         "type": "Point",
@@ -362,10 +394,11 @@ let geoJson={
       "type": "Feature",
       "properties": {
         "name": "Omar",
+        "lat": "23.580222",
+        "lon": "58.564049",
         "address": "Muscat Oman",
-        "country":"Middle East",
-        "city":"Oman",
-        "code":968
+        "country": "Oman",
+        "code": "968"
       },
       "geometry": {
         "type": "Point",
@@ -379,16 +412,18 @@ let geoJson={
       "type": "Feature",
       "properties": {
         "name": "Parfumerie Brückner",
+        "lat": "48.13671696",
+        "lon": "11.57598488",
         "address": "Kaufingerstraße 28",
-        "country":"Germany",
-        "city":"Munich",
-        "code":49
+        "country": "Germany",
+        "code": "49",
+        "link": "https://www.parfuemerie-brueckner.com/collections/sous-le-manteau/"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          11.57598488,
-          48.13671696
+          11.575985,
+          48.136717
         ]
       }
     },
@@ -396,17 +431,18 @@ let geoJson={
       "type": "Feature",
       "properties": {
         "name": "Parfumerie Christophe",
-        "address": "Groenlaan 9, Herzele\n",
-        "country":"Belgium",
-        "city":"Herzele",
-        "link":"https://www.parfumerie-christophe.be/",
-        "code":32
+        "lat": "50.84645418",
+        "lon": "4.34843504",
+        "address": "Groenlaan 9, Herzele",
+        "country": "Belgium",
+        "code": "32",
+        "link": "https://www.parfumerie-christophe.be/productcategorie/parfums/?product_tag=sous-le-manteau"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.34843504,
-          50.84645418
+          4.348435,
+          50.846454
         ]
       }
     },
@@ -414,10 +450,11 @@ let geoJson={
       "type": "Feature",
       "properties": {
         "name": "Parfums Uniques",
+        "lat": "48.132303",
+        "lon": "11.576714",
         "address": "Klenzestrasse 22 (at Gärtnerplatz) , 80469 Munich",
-        "country":"Germany",
-        "city":"Munich",
-        "code":32
+        "country": "Germany",
+        "code": "49"
       },
       "geometry": {
         "type": "Point",
@@ -431,16 +468,18 @@ let geoJson={
       "type": "Feature",
       "properties": {
         "name": "Rosamundi",
+        "lat": "44.46052332",
+        "lon": "26.10036475",
         "address": "Agora Floreasca building, etaj 1 Calea Floreasca 111–113, Bucharest",
-        "country":"Romania",
-        "city":"Bucharest",
-        "code":40
+        "country": "Romania",
+        "code": "40",
+        "link": "https://rosamundiperfumery.com/p/brand/sous-le-manteau/"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          26.10036475,
-          44.46052332
+          26.100365,
+          44.460523
         ]
       }
     },
@@ -448,10 +487,12 @@ let geoJson={
       "type": "Feature",
       "properties": {
         "name": "Sens Unique",
+        "lat": "48.856095",
+        "lon": "2.358783",
         "address": "13 Rue du Roi de Sicile, 75004 Paris -",
-        "country":"France",
-        "city":"Paris",
-        "code":33
+        "country": "France",
+        "code": "33",
+        "link": "https://shop.sensuniqueparis.com/fr/68-slm-sous-le-manteau-/"
       },
       "geometry": {
         "type": "Point",
@@ -464,28 +505,13 @@ let geoJson={
     {
       "type": "Feature",
       "properties": {
-        "name": "Smell Stories",
-        "address": "Verversstraat 15, Quartier Saint-Jacques, Bruxelles",
-        "country":"Belgium",
-        "city":"Brussels",
-        "code":33
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.348445769,
-          50.84645418
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Space240",
+        "lat": "40.741717",
+        "lon": "-73.978676",
         "address": "240 East 29th st, New York",
-        "country":"United States",
-        "city":"New York",
-        "code":1
+        "country": "United States",
+        "code": "1",
+        "link": "https://www.space240.com/sous-le-manteau-collection/"
       },
       "geometry": {
         "type": "Point",
@@ -499,10 +525,11 @@ let geoJson={
       "type": "Feature",
       "properties": {
         "name": "Spitzenhaus",
+        "lat": "47.368124",
+        "lon": "8.540685",
         "address": "Börsenstrasse 14, 8001 Zürich",
-        "country":"Switerland",
-        "city":"Zurich",
-        "code":41
+        "country": "Switzerland",
+        "code": "41"
       },
       "geometry": {
         "type": "Point",
@@ -516,16 +543,17 @@ let geoJson={
       "type": "Feature",
       "properties": {
         "name": "Swan Parfümerie",
+        "lat": "48.40384889",
+        "lon": "12.76271351",
         "address": "Stadtpl. 29, 84307 Eggenfelden, Allemagne",
-        "country":"Germany",
-        "city":"Eggenfelden",
-        "code":49
+        "country": "Germany",
+        "code": "49"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.76271351,
-          48.40384889
+          12.762714,
+          48.403849
         ]
       }
     },
@@ -533,16 +561,18 @@ let geoJson={
       "type": "Feature",
       "properties": {
         "name": "Zgo",
+        "lat": "37.7593493",
+        "lon": "-122.4350598",
         "address": "600 Castro street, San Francisco",
-        "country":"United States",
-        "city":"San Francisco",
-        "code":1
+        "country": "United States",
+        "code": "1",
+        "link": "https://www.zgoperfumery.com/sous-le-manteau/"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.4350598,
-          37.7593493
+          -122.43506,
+          37.759349
         ]
       }
     },
@@ -550,16 +580,17 @@ let geoJson={
       "type": "Feature",
       "properties": {
         "name": "La Maison de la Parfumeria",
+        "lat": "48.48845862",
+        "lon": "135.0839907",
         "address": "TC Plaza, Karla Marksa 76a, Khabarovsk",
-        "city":"Khabarovsk",
-        "country":"Russia",
-        "code":7
+        "country": "Russia",
+        "code": "7"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.0839907,
-          48.48845862
+          135.083991,
+          48.488459
         ]
       }
     },
@@ -567,16 +598,18 @@ let geoJson={
       "type": "Feature",
       "properties": {
         "name": "Renee Parfums",
+        "lat": "59.93957671",
+        "lon": "30.35250366",
         "address": "BASKOV LANE, 5, Saint Petersburg",
-        "country":"Russia",
-        "city":"St.Petersburg",
-        "code":7
+        "country": "Russia",
+        "code": "7",
+        "link": "https://reneeparfum.ru/index.php?route=product/category&path=20_113/"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          30.35250366,
-          59.93957671
+          30.352504,
+          59.939577
         ]
       }
     },
@@ -584,16 +617,18 @@ let geoJson={
       "type": "Feature",
       "properties": {
         "name": "Imagine",
+        "lat": "56.83882847",
+        "lon": "60.59502494",
         "address": "Prospekt Lenina 25, mall Europa, Yekaterinburg 620014",
-        "country":"Russia",
-        "city":"Yekaterinburg",
-        "code":7
+        "country": "Russia",
+        "code": "7",
+        "link": "https://imagine-parfum.ru/brand/156-sous-le-manteau.html"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          60.59502494,
-          56.83882847
+          60.595025,
+          56.838828
         ]
       }
     },
@@ -601,16 +636,35 @@ let geoJson={
       "type": "Feature",
       "properties": {
         "name": "Place Shop",
+        "lat": "58.01347733",
+        "lon": "56.23727981",
         "address": "PERM, SOVETSKAYA ST 28A",
-        "country":"Russia",
-        "city":"Perm",
-        "code":7
+        "country": "Russia",
+        "code": "7"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          56.23727981,
-          58.01347733
+          56.23728,
+          58.013477
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bethabosem",
+        "lat": "32.08793620697620",
+        "lon": "34.791119633444300",
+        "address": "TEL AVIV, Arieh Akiva St 1",
+        "country": "Israel",
+        "code": "972"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.79112,
+          32.087936
         ]
       }
     }
