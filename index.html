@@ -53,9 +53,12 @@ li{
 
 #map {
 position: relative;
-margin: 20px;
+margin: 10px;
+margin-top:50px;
+margin-left:0px;
 top: 0;
 right: 0;
+left:-10px;
 bottom: 0;
 width: 500px;
 height:auto;
@@ -385,7 +388,7 @@ button.accordian:hover{
         "lat": "51.501584",
         "lon": "-0.159805",
         "address": "109-125 Knightsbridge, Belgravia, London SW1X 7RJ, UK",
-        "country": "UK",
+        "country": "United Kingdom",
         "city": "London",
         "code": "44",
         "link": "https://www.harveynichols.com/search/sous%20le%20manteau/"
@@ -1022,18 +1025,30 @@ countries.forEach(country => {
 
 var acc = document.getElementsByClassName("accordion");
 var i;
-
+var panels=document.querySelectorAll('.panel');
+    console.log(panels);
 for (i = 0; i < acc.length; i++) {
+
   acc[i].addEventListener("click", function() {
+
+    panels.forEach((p)=>{
+      p.style.maxHeight = null;
+    })
+    // if(panels[i].style.maxHeight){
+    //   panels[i].style.maxHeight = 0;
+    // }
+    // panels.style.maxHeight=null;
     this.classList.toggle("active");
     var panel = this.nextElementSibling;
+
     if (panel.style.maxHeight) {
       panel.style.maxHeight = null;
     } else {
       panel.style.maxHeight = panel.scrollHeight + "px";
     } 
+
   });
- 
+
 }
 
  </script>
