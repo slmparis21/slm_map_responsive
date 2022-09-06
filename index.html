@@ -907,7 +907,6 @@ const countries=[
   "Estonia",
   "France",
   "Germany",
-  "Japan",
   "Israel",
   "Middle East",
   "Poland",
@@ -915,7 +914,7 @@ const countries=[
   "Russia",
   "Spain",
   "Sweden",
-  "Switerland",
+  "Switzerland",
   "United States",
   "United Kingdom"
 ];
@@ -1020,9 +1019,11 @@ countries.forEach(country => {
 
 var acc = document.getElementsByClassName("accordion");
 var i;
-
+var panels= document.getElementsByClassName('panel');
+    console.log(panels);
 for (i = 0; i < acc.length; i++) {
   acc[i].addEventListener("click", function() {
+    panels.style.maxHeight = null;
     this.classList.toggle("active");
     var panel = this.nextElementSibling;
     if (panel.style.maxHeight) {
