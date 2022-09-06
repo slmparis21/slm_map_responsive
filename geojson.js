@@ -30,7 +30,8 @@ const geojson={
         "address": "Breite Str. 75, Stendal",
         "country": "Germany",
         "city": "Stendal",
-        "code": "49"
+        "code": "49",
+        "link":""
       },
       "geometry": {
         "type": "Point",
@@ -49,7 +50,8 @@ const geojson={
         "address": "Zeiloch 9, Bruchsal",
         "country": "Germany",
         "city": "Bruchsal",
-        "code": "49"
+        "code": "49",
+        "link":""
       },
       "geometry": {
         "type": "Point",
@@ -68,7 +70,8 @@ const geojson={
         "address": "Adlerstraße 15 86899 Landsberg am Lech, Germany",
         "country": "Germany",
         "city": "Landsberg",
-        "code": "49"
+        "code": "49",
+        "link":""
       },
       "geometry": {
         "type": "Point",
@@ -87,7 +90,8 @@ const geojson={
         "address": "21 Rue des Élus, 51100 Reims -",
         "country": "France",
         "city": "Remis",
-        "code": "33"
+        "code": "33",
+        "link":""
       },
       "geometry": {
         "type": "Point",
@@ -106,7 +110,8 @@ const geojson={
         "address": "2 rue Neuve Saint Roch, Bastia",
         "country": "France",
         "city": "Bastia",
-        "code": "33"
+        "code": "33",
+        "link":""
       },
       "geometry": {
         "type": "Point",
@@ -125,7 +130,8 @@ const geojson={
         "address": "11 Rue des Clercs, 57000 Metz, France",
         "country": "France",
         "city": "Metz",
-        "code": "33"
+        "code": "33",
+        "link":""
       },
       "geometry": {
         "type": "Point",
@@ -144,7 +150,8 @@ const geojson={
         "address": "Ulitsa Kuybysheva, 26, Vladikavkaz, Северная Осетия-Алания республика",
         "country": "Russia",
         "city": "Vladikavkaz",
-        "code": "7"
+        "code": "7",
+        "link":""
       },
       "geometry": {
         "type": "Point",
@@ -183,7 +190,8 @@ const geojson={
         "address": "18-1 A Uchitel skaya st.,St. Petersburg",
         "country": "Russia",
         "city": "Petersburg",
-        "code": "7"
+        "code": "7",
+        "link":""
       },
       "geometry": {
         "type": "Point",
@@ -322,7 +330,8 @@ const geojson={
         "address": "P7 24, Mannheim",
         "country": "Germany",
         "city": "Mannheim",
-        "code": "49"
+        "code": "49",
+        "link":""
       },
       "geometry": {
         "type": "Point",
@@ -401,7 +410,8 @@ const geojson={
         "address": "Serebrennikovskaya Ulitsa, 31, Novosibirsk",
         "country": "Russia",
         "city": "Novosibirsk",
-        "code": "7"
+        "code": "7",
+        "link":""
       },
       "geometry": {
         "type": "Point",
@@ -420,7 +430,8 @@ const geojson={
         "address": "Muscat Oman",
         "country": "Oman",
         "city": "Oman",
-        "code": "968"
+        "code": "968",
+        "link":""
       },
       "geometry": {
         "type": "Point",
@@ -479,7 +490,8 @@ const geojson={
         "address": "Klenzestrasse 22 (at Gärtnerplatz) , 80469 Munich",
         "country": "Germany",
         "city": "Munich",
-        "code": "49"
+        "code": "49",
+        "link":""
       },
       "geometry": {
         "type": "Point",
@@ -558,7 +570,8 @@ const geojson={
         "address": "Börsenstrasse 14, 8001 Zürich",
         "country": "Switzerland",
         "city": "Zurich",
-        "code": "41"
+        "code": "41",
+        "link":""
       },
       "geometry": {
         "type": "Point",
@@ -577,7 +590,8 @@ const geojson={
         "address": "Stadtpl. 29, 84307 Eggenfelden, Allemagne",
         "country": "Germany",
         "city": "Eggenfelden",
-        "code": "49"
+        "code": "49",
+        "link":""
       },
       "geometry": {
         "type": "Point",
@@ -616,7 +630,8 @@ const geojson={
         "address": "TC Plaza, Karla Marksa 76a, Khabarovsk",
         "country": "Russia",
         "city": "Khabarovsk",
-        "code": "7"
+        "code": "7",
+        "link":""
       },
       "geometry": {
         "type": "Point",
@@ -675,7 +690,8 @@ const geojson={
         "address": "PERM, SOVETSKAYA ST 28A",
         "country": "Russia",
         "city": "Perm",
-        "code": "7"
+        "code": "7",
+        "link":""
       },
       "geometry": {
         "type": "Point",
@@ -694,7 +710,8 @@ const geojson={
         "address": "TEL AVIV, Arieh Akiva St 1",
         "country": "Israel",
         "city": "Akiva",
-        "code": "972"
+        "code": "972",
+        "link":""
       },
       "geometry": {
         "type": "Point",
