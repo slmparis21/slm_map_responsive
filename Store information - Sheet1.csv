@@ -1,37 +1,37 @@
-name,lat,lon,address,country,code,link
-Aromateka,55.74200165,37.60327234,"Znamenka Ulitsa, 7/3, Пушкино, Moskovskaya oblast, Russia, 119019",Russia,7,https://aroma-teka.ru/
-Parfümerie Aurel,52.60486322,11.86260375,"Breite Str. 75, Stendal",Germany,49,
-Aus Liebe Zum Duft,49.1381556,8.586216371,"Zeiloch 9, Bruchsal",Germany,49,
-Balduin,48.05103123,10.89396432,"Adlerstraße 15 86899 Landsberg am Lech, Germany",Germany,49,
-Basic Crème de la Crème,49.2555133,4.0314917,"21 Rue des Élus, 51100 Reims -",France,33,
-Bercalina,42.69829107,9.450425213,"2 rue Neuve Saint Roch, Bastia",France,33,
-Cour des Hommes,49.117584,6.174013,"11 Rue des Clercs, 57000 Metz, France",France,33,
-Eiffel,55.749283,37.607453,"Ulitsa Kuybysheva, 26, Vladikavkaz, Северная Осетия-Алания республика",Russia,7,
-Fablab,59.31296891,18.0778694,"Bondegatan 7, Stockholm",Sweden,46,https://fab-lab.nu/collections/sous-le-manteau/
-Giorgio,59.93428,30.335099,"18-1 A Uchitel skaya st.,St. Petersburg",Russia,7,
-Harvey Nichols,51.501584,-0.159805,"109-125 Knightsbridge, Belgravia, London SW1X 7RJ, UK",UK,44,https://www.harveynichols.com/search/sous%20le%20manteau/
-Hyrv Concept Store,59.43973086,24.75655431,"Rotermanni 7, Tallinn",Estonia,372,https://www.hyrv.co/perfumes/
-Identité Parfumerie,47.74769212,7.337457078,"3 rue des Bons Enfants, Muhlouse",France,33,https://www.identite-parfumerie.fr/sous-le-manteau/
-Impressium,52.23046019,21.02084547,Mysia 3 00-496 Varsovie,Poland,48,https://impressium.pl/37_sous-le-manteau
-Impressium,51.75158547,19.46009643,Piotrkowska 243 90-456 Łódź,Poland,48,https://impressium.pl/37_sous-le-manteau
-Indigo Perfumery,41.48386589,-81.771735,"12011 Detroit Ave, Lakewood, OH 44107",United States,1,https://indigoperfumery.com/collections/sous-le-manteau/
-Kurfürsten Parfümerie,49.48622848,8.473097957,"P7 24, Mannheim",Germany,49,
-La Majestueuse,44.83876245,-0.5791792597,"73 rue des Remparts, Bordeaux",France,33,https://lamajestueuse.fr/parfums-rares/parfums-sous-le-manteau/
-Le Paravent,45.75326573,4.83094887,"35 rue Auguste Comte, Lyon",France,33,https://le-paravent.fr/parfum-de-niche/sous-le-manteau--115/
-Le Secret du Marais,40.425267,-3.69778,"Calle Hortaleza, 75 28004 Madrid",Spain,34,https://www.lesecretdumarais.com/es/590-sous-le-manteau
-Lukse,55.026864,82.925049,"Serebrennikovskaya Ulitsa, 31, Novosibirsk",Russia,7,
-Omar,23.580222,58.564049,Muscat Oman,Oman,968,
-Parfumerie Brückner,48.13671696,11.57598488,Kaufingerstraße 28,Germany,49,https://www.parfuemerie-brueckner.com/collections/sous-le-manteau/
-Parfumerie Christophe,50.84645418,4.34843504,"Groenlaan 9, Herzele",Belgium,32,https://www.parfumerie-christophe.be/productcategorie/parfums/?product_tag=sous-le-manteau
-Parfums Uniques,48.132303,11.576714,"Klenzestrasse 22 (at Gärtnerplatz) , 80469 Munich",Germany,49,
-Rosamundi,44.46052332,26.10036475,"Agora Floreasca building, etaj 1 Calea Floreasca 111–113, Bucharest",Romania,40,https://rosamundiperfumery.com/p/brand/sous-le-manteau/
-Sens Unique,48.856095,2.358783,"13 Rue du Roi de Sicile, 75004 Paris -",France,33,https://shop.sensuniqueparis.com/fr/68-slm-sous-le-manteau-/
-Space240,40.741717,-73.978676,"240 East 29th st, New York",United States,1,https://www.space240.com/sous-le-manteau-collection/
-Spitzenhaus,47.368124,8.540685,"Börsenstrasse 14, 8001 Zürich",Switzerland,41,
-Swan Parfümerie,48.40384889,12.76271351,"Stadtpl. 29, 84307 Eggenfelden, Allemagne",Germany,49,
-Zgo,37.7593493,-122.4350598,"600 Castro street, San Francisco",United States,1,https://www.zgoperfumery.com/sous-le-manteau/
-La Maison de la Parfumeria,48.48845862,135.0839907,"TC Plaza, Karla Marksa 76a, Khabarovsk",Russia,7,
-Renee Parfums,59.93957671,30.35250366,"BASKOV LANE, 5, Saint Petersburg",Russia,7,https://reneeparfum.ru/index.php?route=product/category&path=20_113/
-Imagine,56.83882847,60.59502494,"Prospekt Lenina 25, mall Europa, Yekaterinburg 620014",Russia,7,https://imagine-parfum.ru/brand/156-sous-le-manteau.html
-Place Shop,58.01347733,56.23727981,"PERM, SOVETSKAYA ST 28A",Russia,7,
-Bethabosem,32.08793620697620,34.791119633444300,"TEL AVIV, Arieh Akiva St 1",Israel,972,
+name,lat,lon,address,country,city,code,link
+Aromateka,55.74200165,37.60327234,"Znamenka Ulitsa, 7/3, Пушкино, Moskovskaya oblast, Russia, 119019",Russia,Moscow,7,https://aroma-teka.ru/
+Parfümerie Aurel,52.60486322,11.86260375,"Breite Str. 75, Stendal",Germany,Stendal,49,
+Aus Liebe Zum Duft,49.1381556,8.586216371,"Zeiloch 9, Bruchsal",Germany,Bruchsal,49,
+Balduin,48.05103123,10.89396432,"Adlerstraße 15 86899 Landsberg am Lech, Germany",Germany,Landsberg,49,
+Basic Crème de la Crème,49.2555133,4.0314917,"21 Rue des Élus, 51100 Reims -",France,Remis,33,
+Bercalina,42.69829107,9.450425213,"2 rue Neuve Saint Roch, Bastia",France,Bastia,33,
+Cour des Hommes,49.117584,6.174013,"11 Rue des Clercs, 57000 Metz, France",France,Metz,33,
+Eiffel,55.749283,37.607453,"Ulitsa Kuybysheva, 26, Vladikavkaz, Северная Осетия-Алания республика",Russia,Vladikavkaz,7,
+Fablab,59.31296891,18.0778694,"Bondegatan 7, Stockholm",Sweden,Stockholm,46,https://fab-lab.nu/collections/sous-le-manteau/
+Giorgio,59.93428,30.335099,"18-1 A Uchitel skaya st.,St. Petersburg",Russia,Petersburg,7,
+Harvey Nichols,51.501584,-0.159805,"109-125 Knightsbridge, Belgravia, London SW1X 7RJ, UK",UK,London,44,https://www.harveynichols.com/search/sous%20le%20manteau/
+Hyrv Concept Store,59.43973086,24.75655431,"Rotermanni 7, Tallinn",Estonia,Tallinn,372,https://www.hyrv.co/perfumes/
+Identité Parfumerie,47.74769212,7.337457078,"3 rue des Bons Enfants, Muhlouse",France,Mulhouse,33,https://www.identite-parfumerie.fr/sous-le-manteau/
+Impressium,52.23046019,21.02084547,Mysia 3 00-496 Varsovie,Poland,Varsovie,48,https://impressium.pl/37_sous-le-manteau
+Impressium,51.75158547,19.46009643,Piotrkowska 243 90-456 Łódź,Poland,Łódź,48,https://impressium.pl/37_sous-le-manteau
+Indigo Perfumery,41.48386589,-81.771735,"12011 Detroit Ave, Lakewood, OH 44107",United States,Lakewood,1,https://indigoperfumery.com/collections/sous-le-manteau/
+Kurfürsten Parfümerie,49.48622848,8.473097957,"P7 24, Mannheim",Germany,Mannheim,49,
+La Majestueuse,44.83876245,-0.5791792597,"73 rue des Remparts, Bordeaux",France,Bordeaux,33,https://lamajestueuse.fr/parfums-rares/parfums-sous-le-manteau/
+Le Paravent,45.75326573,4.83094887,"35 rue Auguste Comte, Lyon",France,Lyon,33,https://le-paravent.fr/parfum-de-niche/sous-le-manteau--115/
+Le Secret du Marais,40.425267,-3.69778,"Calle Hortaleza, 75 28004 Madrid",Spain,Madrid,34,https://www.lesecretdumarais.com/es/590-sous-le-manteau
+Lukse,55.026864,82.925049,"Serebrennikovskaya Ulitsa, 31, Novosibirsk",Russia,Novosibirsk,7,
+Omar,23.580222,58.564049,Muscat Oman,Oman,Oman,968,
+Parfumerie Brückner,48.13671696,11.57598488,Kaufingerstraße 28,Germany,Berlin,49,https://www.parfuemerie-brueckner.com/collections/sous-le-manteau/
+Parfumerie Christophe,50.84645418,4.34843504,"Groenlaan 9, Herzele",Belgium,Herzele,32,https://www.parfumerie-christophe.be/productcategorie/parfums/?product_tag=sous-le-manteau
+Parfums Uniques,48.132303,11.576714,"Klenzestrasse 22 (at Gärtnerplatz) , 80469 Munich",Germany,Munich,49,
+Rosamundi,44.46052332,26.10036475,"Agora Floreasca building, etaj 1 Calea Floreasca 111–113, Bucharest",Romania,Bucharest,40,https://rosamundiperfumery.com/p/brand/sous-le-manteau/
+Sens Unique,48.856095,2.358783,"13 Rue du Roi de Sicile, 75004 Paris -",France,Paris,33,https://shop.sensuniqueparis.com/fr/68-slm-sous-le-manteau-/
+Space240,40.741717,-73.978676,"240 East 29th st, New York",United States,New York,1,https://www.space240.com/sous-le-manteau-collection/
+Spitzenhaus,47.368124,8.540685,"Börsenstrasse 14, 8001 Zürich",Switzerland,Zurich,41,
+Swan Parfümerie,48.40384889,12.76271351,"Stadtpl. 29, 84307 Eggenfelden, Allemagne",Germany,Eggenfelden,49,
+Zgo,37.7593493,-122.4350598,"600 Castro street, San Francisco",United States,San Francisco,1,https://www.zgoperfumery.com/sous-le-manteau/
+La Maison de la Parfumeria,48.48845862,135.0839907,"TC Plaza, Karla Marksa 76a, Khabarovsk",Russia,Khabarovsk,7,
+Renee Parfums,59.93957671,30.35250366,"BASKOV LANE, 5, Saint Petersburg",Russia,St. Petersburg,7,https://reneeparfum.ru/index.php?route=product/category&path=20_113/
+Imagine,56.83882847,60.59502494,"Prospekt Lenina 25, mall Europa, Yekaterinburg 620014",Russia,Yekaterinburg,7,https://imagine-parfum.ru/brand/156-sous-le-manteau.html
+Place Shop,58.01347733,56.23727981,"PERM, SOVETSKAYA ST 28A",Russia,Perm,7,
+Bethabosem,32.08793620697620,34.791119633444300,"TEL AVIV, Arieh Akiva St 1",Israel,Akiva,972,

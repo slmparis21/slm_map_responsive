@@ -9,6 +9,7 @@ const geojson={
         "lon": "37.60327234",
         "address": "Znamenka Ulitsa, 7/3, Пушкино, Moskovskaya oblast, Russia, 119019",
         "country": "Russia",
+        "city": "Moscow",
         "code": "7",
         "link": "https://aroma-teka.ru/"
       },
@@ -28,8 +29,8 @@ const geojson={
         "lon": "11.86260375",
         "address": "Breite Str. 75, Stendal",
         "country": "Germany",
-        "code": "49",
-        "link": ""
+        "city": "Stendal",
+        "code": "49"
       },
       "geometry": {
         "type": "Point",
@@ -47,8 +48,8 @@ const geojson={
         "lon": "8.586216371",
         "address": "Zeiloch 9, Bruchsal",
         "country": "Germany",
-        "code": "49",
-        "link": ""
+        "city": "Bruchsal",
+        "code": "49"
       },
       "geometry": {
         "type": "Point",
@@ -66,8 +67,8 @@ const geojson={
         "lon": "10.89396432",
         "address": "Adlerstraße 15 86899 Landsberg am Lech, Germany",
         "country": "Germany",
-        "code": "49",
-        "link": "" 
+        "city": "Landsberg",
+        "code": "49"
       },
       "geometry": {
         "type": "Point",
@@ -85,8 +86,8 @@ const geojson={
         "lon": "4.0314917",
         "address": "21 Rue des Élus, 51100 Reims -",
         "country": "France",
-        "code": "33",
-        "link": ""
+        "city": "Remis",
+        "code": "33"
       },
       "geometry": {
         "type": "Point",
@@ -104,8 +105,8 @@ const geojson={
         "lon": "9.450425213",
         "address": "2 rue Neuve Saint Roch, Bastia",
         "country": "France",
-        "code": "33",
-        "link": ""
+        "city": "Bastia",
+        "code": "33"
       },
       "geometry": {
         "type": "Point",
@@ -123,8 +124,8 @@ const geojson={
         "lon": "6.174013",
         "address": "11 Rue des Clercs, 57000 Metz, France",
         "country": "France",
-        "code": "33",
-        "link": ""
+        "city": "Metz",
+        "code": "33"
       },
       "geometry": {
         "type": "Point",
@@ -142,8 +143,8 @@ const geojson={
         "lon": "37.607453",
         "address": "Ulitsa Kuybysheva, 26, Vladikavkaz, Северная Осетия-Алания республика",
         "country": "Russia",
-        "code": "7",
-        "link": ""
+        "city": "Vladikavkaz",
+        "code": "7"
       },
       "geometry": {
         "type": "Point",
@@ -161,6 +162,7 @@ const geojson={
         "lon": "18.0778694",
         "address": "Bondegatan 7, Stockholm",
         "country": "Sweden",
+        "city": "Stockholm",
         "code": "46",
         "link": "https://fab-lab.nu/collections/sous-le-manteau/"
       },
@@ -180,6 +182,7 @@ const geojson={
         "lon": "30.335099",
         "address": "18-1 A Uchitel skaya st.,St. Petersburg",
         "country": "Russia",
+        "city": "Petersburg",
         "code": "7"
       },
       "geometry": {
@@ -198,6 +201,7 @@ const geojson={
         "lon": "-0.159805",
         "address": "109-125 Knightsbridge, Belgravia, London SW1X 7RJ, UK",
         "country": "UK",
+        "city": "London",
         "code": "44",
         "link": "https://www.harveynichols.com/search/sous%20le%20manteau/"
       },
@@ -217,6 +221,7 @@ const geojson={
         "lon": "24.75655431",
         "address": "Rotermanni 7, Tallinn",
         "country": "Estonia",
+        "city": "Tallinn",
         "code": "372",
         "link": "https://www.hyrv.co/perfumes/"
       },
@@ -236,6 +241,7 @@ const geojson={
         "lon": "7.337457078",
         "address": "3 rue des Bons Enfants, Muhlouse",
         "country": "France",
+        "city": "Mulhouse",
         "code": "33",
         "link": "https://www.identite-parfumerie.fr/sous-le-manteau/"
       },
@@ -255,6 +261,7 @@ const geojson={
         "lon": "21.02084547",
         "address": "Mysia 3 00-496 Varsovie",
         "country": "Poland",
+        "city": "Varsovie",
         "code": "48",
         "link": "https://impressium.pl/37_sous-le-manteau"
       },
@@ -274,6 +281,7 @@ const geojson={
         "lon": "19.46009643",
         "address": "Piotrkowska 243 90-456 Łódź",
         "country": "Poland",
+        "city": "Łódź",
         "code": "48",
         "link": "https://impressium.pl/37_sous-le-manteau"
       },
@@ -293,6 +301,7 @@ const geojson={
         "lon": "-81.771735",
         "address": "12011 Detroit Ave, Lakewood, OH 44107",
         "country": "United States",
+        "city": "Lakewood",
         "code": "1",
         "link": "https://indigoperfumery.com/collections/sous-le-manteau/"
       },
@@ -312,8 +321,8 @@ const geojson={
         "lon": "8.473097957",
         "address": "P7 24, Mannheim",
         "country": "Germany",
-        "code": "49",
-        "link": ""
+        "city": "Mannheim",
+        "code": "49"
       },
       "geometry": {
         "type": "Point",
@@ -331,6 +340,7 @@ const geojson={
         "lon": "-0.5791792597",
         "address": "73 rue des Remparts, Bordeaux",
         "country": "France",
+        "city": "Bordeaux",
         "code": "33",
         "link": "https://lamajestueuse.fr/parfums-rares/parfums-sous-le-manteau/"
       },
@@ -350,6 +360,7 @@ const geojson={
         "lon": "4.83094887",
         "address": "35 rue Auguste Comte, Lyon",
         "country": "France",
+        "city": "Lyon",
         "code": "33",
         "link": "https://le-paravent.fr/parfum-de-niche/sous-le-manteau--115/"
       },
@@ -369,6 +380,7 @@ const geojson={
         "lon": "-3.69778",
         "address": "Calle Hortaleza, 75 28004 Madrid",
         "country": "Spain",
+        "city": "Madrid",
         "code": "34",
         "link": "https://www.lesecretdumarais.com/es/590-sous-le-manteau"
       },
@@ -388,8 +400,8 @@ const geojson={
         "lon": "82.925049",
         "address": "Serebrennikovskaya Ulitsa, 31, Novosibirsk",
         "country": "Russia",
-        "code": "7",
-        "link": ""
+        "city": "Novosibirsk",
+        "code": "7"
       },
       "geometry": {
         "type": "Point",
@@ -407,8 +419,8 @@ const geojson={
         "lon": "58.564049",
         "address": "Muscat Oman",
         "country": "Oman",
-        "code": "968",
-        "link": ""
+        "city": "Oman",
+        "code": "968"
       },
       "geometry": {
         "type": "Point",
@@ -426,6 +438,7 @@ const geojson={
         "lon": "11.57598488",
         "address": "Kaufingerstraße 28",
         "country": "Germany",
+        "city": "Berlin",
         "code": "49",
         "link": "https://www.parfuemerie-brueckner.com/collections/sous-le-manteau/"
       },
@@ -445,6 +458,7 @@ const geojson={
         "lon": "4.34843504",
         "address": "Groenlaan 9, Herzele",
         "country": "Belgium",
+        "city": "Herzele",
         "code": "32",
         "link": "https://www.parfumerie-christophe.be/productcategorie/parfums/?product_tag=sous-le-manteau"
       },
@@ -464,8 +478,8 @@ const geojson={
         "lon": "11.576714",
         "address": "Klenzestrasse 22 (at Gärtnerplatz) , 80469 Munich",
         "country": "Germany",
-        "code": "49",
-        "link": ""
+        "city": "Munich",
+        "code": "49"
       },
       "geometry": {
         "type": "Point",
@@ -483,6 +497,7 @@ const geojson={
         "lon": "26.10036475",
         "address": "Agora Floreasca building, etaj 1 Calea Floreasca 111–113, Bucharest",
         "country": "Romania",
+        "city": "Bucharest",
         "code": "40",
         "link": "https://rosamundiperfumery.com/p/brand/sous-le-manteau/"
       },
@@ -502,6 +517,7 @@ const geojson={
         "lon": "2.358783",
         "address": "13 Rue du Roi de Sicile, 75004 Paris -",
         "country": "France",
+        "city": "Paris",
         "code": "33",
         "link": "https://shop.sensuniqueparis.com/fr/68-slm-sous-le-manteau-/"
       },
@@ -521,6 +537,7 @@ const geojson={
         "lon": "-73.978676",
         "address": "240 East 29th st, New York",
         "country": "United States",
+        "city": "New York",
         "code": "1",
         "link": "https://www.space240.com/sous-le-manteau-collection/"
       },
@@ -540,8 +557,8 @@ const geojson={
         "lon": "8.540685",
         "address": "Börsenstrasse 14, 8001 Zürich",
         "country": "Switzerland",
-        "code": "41",
-        "link": ""
+        "city": "Zurich",
+        "code": "41"
       },
       "geometry": {
         "type": "Point",
@@ -559,8 +576,8 @@ const geojson={
         "lon": "12.76271351",
         "address": "Stadtpl. 29, 84307 Eggenfelden, Allemagne",
         "country": "Germany",
-        "code": "49",
-        "link": ""
+        "city": "Eggenfelden",
+        "code": "49"
       },
       "geometry": {
         "type": "Point",
@@ -578,6 +595,7 @@ const geojson={
         "lon": "-122.4350598",
         "address": "600 Castro street, San Francisco",
         "country": "United States",
+        "city": "San Francisco",
         "code": "1",
         "link": "https://www.zgoperfumery.com/sous-le-manteau/"
       },
@@ -597,8 +615,8 @@ const geojson={
         "lon": "135.0839907",
         "address": "TC Plaza, Karla Marksa 76a, Khabarovsk",
         "country": "Russia",
-        "code": "7",
-        "link": ""
+        "city": "Khabarovsk",
+        "code": "7"
       },
       "geometry": {
         "type": "Point",
@@ -616,6 +634,7 @@ const geojson={
         "lon": "30.35250366",
         "address": "BASKOV LANE, 5, Saint Petersburg",
         "country": "Russia",
+        "city": "St. Petersburg",
         "code": "7",
         "link": "https://reneeparfum.ru/index.php?route=product/category&path=20_113/"
       },
@@ -635,6 +654,7 @@ const geojson={
         "lon": "60.59502494",
         "address": "Prospekt Lenina 25, mall Europa, Yekaterinburg 620014",
         "country": "Russia",
+        "city": "Yekaterinburg",
         "code": "7",
         "link": "https://imagine-parfum.ru/brand/156-sous-le-manteau.html"
       },
@@ -654,8 +674,8 @@ const geojson={
         "lon": "56.23727981",
         "address": "PERM, SOVETSKAYA ST 28A",
         "country": "Russia",
-        "code": "7",
-        "link": ""
+        "city": "Perm",
+        "code": "7"
       },
       "geometry": {
         "type": "Point",
@@ -673,8 +693,8 @@ const geojson={
         "lon": "34.791119633444300",
         "address": "TEL AVIV, Arieh Akiva St 1",
         "country": "Israel",
-        "code": "972",
-        "link": ""
+        "city": "Akiva",
+        "code": "972"
       },
       "geometry": {
         "type": "Point",
